@@ -1,0 +1,316 @@
+.listGroup23,
+.listGroup33 {
+  position: absolute;
+  top: 8.5px;
+  left: 50px;
+  border-radius: var(--br-13xl);
+  width: 577.1px;
+  height: 465.8px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.listGroup23 {
+  top: 0;
+  left: 0;
+  width: 600.7px;
+  height: 315.3px;
+  z-index: 1;
+}
+.listGroup33Parent {
+  height: 474.3px;
+  width: 627.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: -54.8px;
+  bottom: -73.4px;
+}
+.image2Icon {
+  width: 516px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.p,
+.sampleStoryDescription {
+  margin: 0;
+}
+.sampleStoryDescriptionContainer1 {
+  width: 100%;
+}
+.sampleStoryDescriptionContainer {
+  width: 515.9px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  max-height: 60px;
+  word-break: break-word;
+  margin-top: -24px;
+}
+.frameGroup,
+.listGroup13 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.listGroup13 {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-31xl) var(--padding-89xl);
+  z-index: 2;
+}
+.frameGroup {
+  width: 640px;
+  flex-direction: row;
+  position: relative;
+  min-width: 640px;
+}
+.heading2,
+.sampleStory {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.heading2 {
+  width: 471px;
+  line-height: 59.2px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.sampleStory {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.heading2MerchantFirstMinParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-2);
+  max-width: 100%;
+}
+.buttonNextSlide,
+.buttonPreviousSlide {
+  align-self: stretch;
+  width: 96px;
+  position: relative;
+  border-radius: var(--br-45xl);
+  max-height: 100%;
+  min-height: 48px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.buttonPreviousSlideParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.frameContainer,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 485.9px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-23xl-2) 0 0;
+  box-sizing: border-box;
+  min-width: 485.9px;
+  font-size: var(--font-size-23xl-9);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.divtrsutpilotHeaderLine {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-darkgray-100);
+  z-index: 3;
+}
+.divtrsutpilotHeaderLineWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 265px;
+  max-width: 100%;
+}
+.launchedFunctions {
+  width: 160.8px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.divtrsutpilotHeaderLine1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-darkgray-100);
+  z-index: 3;
+}
+.divtrsutpilotHeaderLineContainer,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divtrsutpilotHeaderLineContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 265px;
+}
+.frameDiv {
+  width: 1120.6px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-52xl-9);
+}
+.main,
+.mainInner,
+.section {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mainInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-11xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.main,
+.section {
+  background-color: var(--color-gainsboro-300);
+  justify-content: flex-start;
+}
+.main {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-109xl) var(--padding-23xl-1) var(--padding-8xl-3)
+    var(--padding-21xl);
+  gap: var(--gap-147xl-7);
+}
+.section {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-12xs-3) 0 var(--padding-486xl-7) var(--padding-12xs-1);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 1225px) {
+  .frameGroup,
+  .frameWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .frameDiv {
+    gap: var(--gap-17xl);
+  }
+  .section {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-310xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .listGroup13 {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+  .heading2 {
+    font-size: var(--font-size-15xl);
+    line-height: 46px;
+  }
+  .frameContainer {
+    gap: var(--gap-21xl);
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .frameDiv {
+    gap: var(--gap-lg);
+  }
+  .main,
+  .section {
+    box-sizing: border-box;
+  }
+  .main {
+    gap: var(--gap-64xl);
+    padding-top: var(--padding-64xl);
+    padding-right: var(--padding-2xl);
+    padding-bottom: var(--padding-xl);
+  }
+  .section {
+    padding-bottom: var(--padding-195xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sampleStoryDescriptionContainer {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .listGroup13 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+  .heading2 {
+    font-size: var(--font-size-7xl);
+    line-height: 35px;
+  }
+  .main {
+    gap: var(--gap-23xl);
+  }
+}

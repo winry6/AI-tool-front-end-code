@@ -1,0 +1,81 @@
+.inputSearchIntegrationOrCa {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 79px;
+  max-width: 100%;
+}
+.formEmailForm {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.formEmailForm,
+.frameParent,
+.indicatorSearch,
+.indicatorSearchInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-77xl);
+  max-width: 100%;
+}
+.indicatorSearch,
+.indicatorSearchInner {
+  box-sizing: border-box;
+}
+.indicatorSearchInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl) 442px;
+  max-width: 100%;
+}
+.indicatorSearch {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) 0 var(--padding-12xs-4);
+  gap: var(--gap-77xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .indicatorSearchInner {
+    padding-bottom: 287px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inputSearchIntegrationOrCa {
+    gap: 39px;
+  }
+  .frameParent {
+    gap: var(--gap-29xl);
+  }
+  .indicatorSearchInner {
+    padding-bottom: 187px;
+    box-sizing: border-box;
+  }
+  .indicatorSearch {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .inputSearchIntegrationOrCa {
+    gap: var(--gap-xl);
+  }
+  .frameParent,
+  .indicatorSearch {
+    gap: var(--gap-5xl);
+  }
+}

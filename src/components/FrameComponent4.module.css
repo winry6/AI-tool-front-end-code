@@ -1,0 +1,89 @@
+.mainSection {
+  margin: 0;
+  width: 500px;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.listItemPlatforms,
+.viewMore {
+  font-family: var(--font-copyright-klim-type-foundry);
+}
+.listItemPlatforms {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  grid-template-columns: repeat(4, minmax(241px, 1fr));
+  font-size: var(--font-size-lg);
+}
+.viewMore {
+  width: 82.3px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-teal);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 82.3px;
+}
+.mainSectionLink,
+.smile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainSectionLink {
+  cursor: pointer;
+  border: 2px solid var(--color-teal);
+  padding: var(--padding-6xs) var(--padding-sm) var(--padding-6xs)
+    var(--padding-lg);
+  background-color: transparent;
+  width: 118.1px;
+  border-radius: var(--br-1581xl);
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.mainSectionLink:hover {
+  background-color: var(--color-darkcyan-200);
+  border: 2px solid var(--color-darkcyan-100);
+  box-sizing: border-box;
+}
+.smile {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 1200px) {
+  .listItemPlatforms {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(241px, 419px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .listItemPlatforms {
+    grid-template-columns: minmax(241px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainSection {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}

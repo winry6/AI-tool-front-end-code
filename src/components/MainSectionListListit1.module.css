@@ -1,0 +1,53 @@
+.divintegrationBackgroundIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.yotpo {
+  width: 51.5px;
+  position: relative;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+}
+.customerReviewsRewards,
+.more,
+.yotpoIsOne {
+  margin: 0;
+}
+.yotpoIsOneContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-dimgray);
+}
+.mainSectionListListit {
+  height: 373px;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-base) var(--padding-78xl);
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-copyright-klim-type-foundry);
+}
+@media screen and (max-width: 450px) {
+  .mainSectionListListit {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}

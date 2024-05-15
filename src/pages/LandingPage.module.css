@@ -1,0 +1,30 @@
+.bodyPaints {
+  align-self: stretch;
+  height: 3539px;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.conditionalLogic,
+.landingPage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.conditionalLogic {
+  flex: 1;
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-4);
+  max-width: 100%;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 318px;
+  line-height: normal;
+  letter-spacing: normal;
+}

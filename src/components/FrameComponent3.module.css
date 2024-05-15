@@ -1,0 +1,149 @@
+.link623f870c6b70a78281ebadb {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.link623f870c6b70a78281ebadbWrapper {
+  width: 150.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+}
+.navigationButton {
+  width: 83.6px;
+  display: flex;
+  align-items: center;
+}
+.navigationButton,
+.navigationButton1,
+.navigationLink {
+  position: relative;
+  line-height: 24px;
+  flex-shrink: 0;
+}
+.navigationButton1 {
+  width: 75.2px;
+  display: flex;
+  align-items: center;
+}
+.navigationLink {
+  display: inline-block;
+  min-width: 87px;
+}
+.frameWrapper,
+.navigationButtonMenuMerParent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigationButtonMenuMerParent {
+  width: 325.4px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-teal);
+  font-family: var(--font-abeezee);
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.signIn {
+  width: 53.6px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-abeezee);
+  color: var(--color-teal);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 53.6px;
+  white-space: nowrap;
+}
+.navigationButtonMenu {
+  cursor: pointer;
+  border: 2px solid var(--color-teal);
+  padding: var(--padding-2xs) var(--padding-lg) var(--padding-2xs)
+    var(--padding-3xl);
+  background-color: transparent;
+  width: 97.4px;
+  border-radius: var(--br-1581xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationButtonMenu:hover {
+  background-color: var(--color-darkcyan-200);
+  border: 2px solid var(--color-darkcyan-100);
+  box-sizing: border-box;
+}
+.logIn {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-abeezee);
+  color: var(--color-white);
+  text-align: center;
+}
+.frameParent,
+.indicatorSearchInner,
+.navigationButton2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationButton2 {
+  cursor: pointer;
+  border: 1px solid var(--color-teal);
+  padding: var(--padding-2xs) var(--padding-lgi) var(--padding-2xs)
+    var(--padding-2xl);
+  background-color: var(--color-teal);
+  width: 132.9px;
+  backdrop-filter: blur(5px);
+  border-radius: var(--br-9981xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.navigationButton2:hover {
+  background-color: var(--color-darkcyan-100);
+  border: 1px solid var(--color-darkcyan-100);
+  box-sizing: border-box;
+}
+.frameParent,
+.indicatorSearchInner {
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-base-9);
+}
+.indicatorSearchInner {
+  align-self: stretch;
+  padding: 0 var(--padding-21xl) var(--padding-67xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .frameWrapper {
+    display: none;
+  }
+}

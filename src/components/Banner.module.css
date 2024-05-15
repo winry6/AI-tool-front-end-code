@@ -1,0 +1,249 @@
+.link64f099a414828ebfdad821b {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.inputOutput {
+  width: 150.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-3) var(--padding-17xl) 0 0;
+  box-sizing: border-box;
+}
+.navigationButton,
+.navigationButton1,
+.navigationLink {
+  width: 83.6px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.navigationButton1,
+.navigationLink {
+  width: 75.2px;
+}
+.navigationLink {
+  width: 88px;
+}
+.controlStructures {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.mathOperations {
+  width: 337.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-3) var(--padding-xs-1) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigationLink1 {
+  width: 88px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.variableStorage {
+  width: 135.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-3) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.ff28bdd4789194469e54f9SearchIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+  z-index: 1;
+}
+.searchIntegrationOr {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.ff28bdd4789194469e54f9SearchParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.shapeTransforms {
+  width: 230.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.clear {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  min-width: 34.5px;
+}
+.link {
+  width: 60.2px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-4) var(--padding-5xs) var(--padding-base-6);
+  box-sizing: border-box;
+  z-index: 1;
+  color: var(--color-gray-200);
+}
+.connectionHandler,
+.formEmailForm,
+.input {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input {
+  flex: 1;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray-100);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 var(--padding-mid);
+  gap: var(--gap-xl);
+}
+.connectionHandler,
+.formEmailForm {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formEmailForm {
+  align-self: stretch;
+  border-radius: var(--br-301xl);
+  border: 1px solid var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+}
+.connectionHandler {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-7xl-8) 0 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-300);
+  font-family: var(--font-copyright-klim-type-foundry);
+}
+.signIn {
+  width: 53.6px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-abeezee);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 53.6px;
+  white-space: nowrap;
+}
+.navigationButtonMenu {
+  cursor: pointer;
+  border: 2px solid var(--color-white);
+  padding: var(--padding-2xs) var(--padding-lg) var(--padding-2xs)
+    var(--padding-3xl);
+  background-color: transparent;
+  width: 97.4px;
+  border-radius: var(--br-1581xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationButtonMenu:hover {
+  background-color: var(--color-gainsboro-500);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.logIn {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-abeezee);
+  color: var(--color-teal);
+  text-align: center;
+}
+.banner,
+.navigationButton2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.navigationButton2 {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: var(--padding-2xs) var(--padding-lgi) var(--padding-2xs)
+    var(--padding-2xl);
+  background-color: var(--color-white);
+  width: 132.9px;
+  backdrop-filter: blur(5px);
+  border-radius: var(--br-9981xl);
+  white-space: nowrap;
+}
+.navigationButton2:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.banner {
+  align-self: stretch;
+  background-color: var(--color-teal);
+  padding: var(--padding-xs-7) var(--padding-21xl) var(--padding-4xs-3);
+  gap: var(--gap-base-9);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 1225px) {
+  .controlStructures {
+    display: none;
+  }
+  .mathOperations {
+    width: 11.100000000000136px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .searchIntegrationOr {
+    display: none;
+  }
+}

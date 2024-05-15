@@ -1,0 +1,53 @@
+.divintegrationBackgroundIcon {
+  width: 288px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-height: 100%;
+}
+.magento {
+  width: 77.9px;
+  position: relative;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+}
+.cloudSolutionsTo,
+.ecommercePlatformsAnd,
+.grow,
+.magentoEmpowersThousands,
+.retailersAndBrands {
+  margin: 0;
+}
+.magentoEmpowersThousandsContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-dimgray);
+}
+.mainSectionListListit {
+  height: 352px;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-4xs) var(--padding-9xl)
+    var(--padding-mid);
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-copyright-klim-type-foundry);
+}
+@media screen and (max-width: 450px) {
+  .mainSectionListListit {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
